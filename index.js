@@ -64,16 +64,3 @@ class Calculator {
   }
 
 }
-
-const calc = new Calculator();
-calc.calculate([1, '-', 2]);
-console.log('calc.currentResult: ', calc.currentResult);
-calc.calculate([2, '+', 2]);
-console.log('calc.currentResult: ', calc.currentResult);
-calc.calculate([8, '*', 5]);
-console.log('calc.currentResult: ', calc.currentResult);
-calc.calculate([22, '/', 10]);
-console.log('calc.currentResult: ', calc.currentResult);
-
-
-
